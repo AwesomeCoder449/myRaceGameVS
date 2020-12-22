@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <style>
+    body{
+        background-image: url("https://vkortikere.github.io/carGame1/carRacingGame/raceTrack.gif");
+        background-position: center;
+        background-size: cover;
+    }
+    #myCanvas
+    {
+        border-width:10px;
+        background-color: white; 
+        border-style:ridge;
+    }
+    
+    h1,h4
+    {
+        color: white !important;
+    }
+    </style>		
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>CAR RACING GAME</title>
+    <style type="text/css">.cc_cursor, body, .ogdlpmhglpejoiomcodnpjnfgcpmgale_default, body, html, input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input::-webkit-contacts-auto-fill-button, input:read-only {cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEjklEQVRYR72W22tcVRTGv3XOmUsySUzSJG0haSsUJBNRfJJeArZTC03SIpSWEqwXTK1UlCIV/Au84kMF8RJrDIi+CEqbiGDjpUmMog8GnKj1wcRoaXNP5mSu5+wle++cZCYXc+nE/TIza/bZ+7e/9a21D6FrgCEHAdDfsgYdQ6T2yuJoPn/TPMByq7poxOHw5/nccMkRswDE/J+hgKMUSWQ+gyOGADZwqO7CZoAsKEAQYBhgBipLdD6mEi4c11QbR8ISKe8jKwWsAQQD20uhQCbiLjKOqdQ4VLfJAKFAGgV+PwwAIzF90tJCwDIBgxgjMxoglalBw71/50uKBQWKAmkEfX4QAaPZAAZAxBiNbRLAVwMN6jSGeQqEZiV9cVDnPZ4GhPImI1SgTToz+w2YUwAJRMJHb1eJhbxeHXgVhOe1CYv1ulNxwBFQvqiaM+a4rb0CpBAJB/MIEH0dRM+pzbaVsGpKEzZpAAFsK9N7jcy4qiyJkoiEC/MHkL2S1x3vCLnwGboKPF9sKdJdU5btqC2V+O8Sbdz3KMhoywElPo8rPW/I2PKl5QGUFrqwTFMbc0bPLpcANAcQ2ySAr/urFTFbrQAdVi2qokgbc3JW9wgQozykb4+x2D8giWf8gUjtQRVrrB8GgVGzowB795fDMhntbQYsSz66igKeXl3RToAawMyoLNFqjccWLq2KObOOzbCShfAzDobvU/Oa6nXV7KhxUX/AUv3kUiuvF+CyUkACVJX4NYBNEILABFQWadRR21Xp9Pn68fKRPSpmbI2rz5qdLh44YMJUAGkFAH4BHT0XV/bActb2fFFRJE8mu5OUXs+UZSvTYk87eOmcqb63nCUkk8DQoIOeazp9Hd3aM1lj7f19CYDMvf0/AnjUV6NDINSASaCqWJ/s1lyFJGyBdy5I6wEtT+ZZAQ+gKzoMomowBCqKtaSqRAlIxATezgJIJYHBfKVgHmDgWxBKYPkIRvJuFZ6MqyJEalrg49f0zIeOE9Ip4OaNcfT23lCxzh5dIRvywOInj+wOwNyeyAkHgy6On7QUzHvvMoJBWbLt6Ox+fPHj3u+1m3DxCifq/IiXJ1XYWyUQdHHipKwzDRBQd1WeAZrqRwFsURfUmadyDxCfddB2SRlz7K4ysl1G76zlvnjTp2LRLy8vOfD6FWiq/wtANVgwHn4st67jcQeffqI2G6wO0oQAfpo1nIsjAaXK7QHIW02Onbte0QqwwK47cwEcZwp933XIaR+VhU7bzDzpkHs9ZZpyYmtmqmXjJvR6+6lmAdOSN6TAh+25CjL3e06ve/CYuqjuD7nOM1Vpy09A3XCCYeQ+svYUeADNpwV88mYhRvv7uQdi/ILO7ntk0APYG3LF+a1pI0DA7j9tDSB7hqHFWz+A43ibpvBFX8FK5TUfb9rzCNj8AI4LnHuakMkA3/el8duvvo0BLOyYQkf36gDeG5HrAk+cIWQc4Mcf0rj++zoBju5/Nue0DBcdPW+uqoAHIN81a2sz6p1z5BZhekpVxtpTsOpOK0xY7p0wa+rmAzTsOwvDeGsl/n8BZ+XuxmFb1MAAAAAASUVORK5CYII=") 0 0 , auto !important; }.cc_pointer,[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration, .paper-button, .ytp-progress-bar-container, input[type=submit], :link, :visited, a > *, img, button, ::-webkit-scrollbar-button, .ogdlpmhglpejoiomcodnpjnfgcpmgale_pointer, ::-webkit-file-upload-button, button, .ytp-volume-panel, #myogdlpmhglpejoiomcodnpjnfgcpmgale .icon { cursor: url("data:image/png;base64,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") 7 2, auto !important; } </style></head>
+    <body onload="add()">
+    <center>
+    <h1>The Winner Is:</h1>
+    
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+    <h4>
+        <b text="text-danger"></b>NOTE :  IF CARS IS NOT VISABLE PRESS ANY ARROW KEY
+    </h4>
+    
+    </center>
+    <script src="main.js">
+    </script>
+    
+    </body></html>
